@@ -1,6 +1,7 @@
 import re
 
 file = input("Enter file path:")
+file = file + '.txt'
 term = input("Enter search term:")
 search_selection = input('Please enter "Sentence" to search for sentences including your search term or'
                          ' "Paragraph" to search for paragraphs including your search term: ')
